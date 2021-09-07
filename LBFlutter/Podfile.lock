@@ -1,0 +1,69 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - path_provider
+    - sqflite
+    - url_launcher
+    - webview_flutter
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Masonry (1.1.0)
+  - my_flutter (0.0.1):
+    - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - url_launcher (0.0.1):
+    - Flutter
+  - webview_flutter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `../my_flutter/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../my_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - Masonry
+  - my_flutter (from `../my_flutter/.ios/Flutter`)
+  - path_provider (from `../my_flutter/.ios/.symlinks/plugins/path_provider/ios`)
+  - sqflite (from `../my_flutter/.ios/.symlinks/plugins/sqflite/ios`)
+  - url_launcher (from `../my_flutter/.ios/.symlinks/plugins/url_launcher/ios`)
+  - webview_flutter (from `../my_flutter/.ios/.symlinks/plugins/webview_flutter/ios`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FMDB
+    - Masonry
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../my_flutter/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "../my_flutter/.ios/Flutter/FlutterPluginRegistrant"
+  my_flutter:
+    :path: "../my_flutter/.ios/Flutter"
+  path_provider:
+    :path: "../my_flutter/.ios/.symlinks/plugins/path_provider/ios"
+  sqflite:
+    :path: "../my_flutter/.ios/.symlinks/plugins/sqflite/ios"
+  url_launcher:
+    :path: "../my_flutter/.ios/.symlinks/plugins/url_launcher/ios"
+  webview_flutter:
+    :path: "../my_flutter/.ios/.symlinks/plugins/webview_flutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: ac41d61a47ae5bf8195a5598d2d63754888ec0d5
+  FlutterPluginRegistrant: c2ed0a512f8a80f7e3906c440c299c2131a019c9
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  my_flutter: 5f71a42a61a499a9f322f2c0f62fc185a5807c9b
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+  url_launcher: 6fef411d543ceb26efce54b05a0a40bfd74cbbef
+  webview_flutter: 3603125dfd3bcbc9d8d418c3f80aeecf331c068b
+
+PODFILE CHECKSUM: cc36aa923cd65aeadb5debdc0dc4e8780fd51b9d
+
+COCOAPODS: 1.10.1

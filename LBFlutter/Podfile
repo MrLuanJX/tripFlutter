@@ -1,0 +1,21 @@
+source "https://github.com/CocoaPods/Specs.git"
+
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LBFlutter' do
+
+pod 'Masonry'
+
+#flutter_application_path = '../my_flutter'
+
+#eval(File.read(File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')), binding)
+
+flutter_application_path = '../my_flutter'
+
+load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+
+install_all_flutter_pods(flutter_application_path)
+
+end
